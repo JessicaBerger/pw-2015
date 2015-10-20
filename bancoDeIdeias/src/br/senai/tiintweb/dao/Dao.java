@@ -4,7 +4,6 @@ import java.sql.DriverManager;
 
 import com.mysql.jdbc.Connection;
 
-
 public class Dao {
 	private Connection conn;
 
@@ -23,3 +22,4 @@ public class Dao {
 		return conn;
 	}
 }
+
