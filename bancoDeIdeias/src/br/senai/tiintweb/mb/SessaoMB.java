@@ -5,12 +5,12 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
 import br.senai.tiinweb.model.dominio.User;
+
 @SessionScoped
 @ManagedBean
 
 public class SessaoMB {
 	private User usuarioLogado;
-	
 	private User usuarioForm;
 	
 	@PostConstruct

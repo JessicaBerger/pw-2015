@@ -79,7 +79,7 @@ public class UserDao extends Dao {
 				user.setNome(rs.getString("nome"));
 				user.setEmail(rs.getString("email"));
 				user.setId(rs.getLong("id"));
-				user.setSenha("senha");
+				user.setSenha(rs.getString("senha"));
 				users.add(user);
 			}
 		} catch (SQLException e) {
